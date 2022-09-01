@@ -1,0 +1,838 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.main {
+    width: 100%;
+    /* height: 5110px; */
+    /* background-color: aquamarine; */
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+.sec1 {
+    width: 100%;
+    height: 73rem;
+    background-image: url(../images/base.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    width: 8rem;
+    height: 4rem;
+    background-image: url(../images/logo.png);
+    /* background-color: white; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    transition: all 1s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.a {
+    width: 50vw;
+    height: 73rem;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    transition: all 1s;
+}
+
+.a:hover {
+    transform: scale(1.1);
+}
+
+.hamburger {
+    font-size: 3rem;
+    line-height: 1.5rem;
+    position: absolute;
+    top: 30px;
+    left: 75%;
+    color: white;
+    transition: transform 1s;
+}
+
+.hamburger:hover {
+    transform: translateX(10px);
+}
+
+.text1 {
+    width: 50vw;
+    height: 73rem;
+    position: absolute;
+    /* background-color: blue; */
+}
+
+.t-h1 {
+    color: white;
+    font-size: 6rem;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    transition: transform 1s;
+}
+
+.t-h1:hover {
+    transform: translateX(25px);
+}
+
+.t-p1 {
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 33rem;
+    left: 10rem;
+}
+
+.b1 {
+    width: 18rem;
+    height: 4rem;
+    background-color: rgb(56, 158, 199);
+    position: absolute;
+    top: 50rem;
+    left: 10rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5rem;
+    border: 2px solid rgb(56, 158, 199);
+}
+
+.b1:hover {
+    background-color: rgb(16, 123, 165);
+    border: 2px solid rgb(16, 123, 165);
+}
+
+
+/* #2ND SECTION */
+
+.sec2 {
+    width: 100vw;
+    height: 77rem;
+    background-color: white;
+    position: relative;
+}
+
+.text2 {
+    width: 50vw;
+    height: 13rem;
+    /* background-color: tan; */
+    position: absolute;
+    top: 5rem;
+    left: 25%;
+}
+
+.t2-h1 {
+    font-size: 4rem;
+    position: absolute;
+    left: 20rem;
+    transition: transform 1s;
+}
+
+.t2-h1:hover {
+    transform: translateY(-15px);
+}
+
+.t2-p1 {
+    font-size: 1.7rem;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+}
+
+.b {
+    width: 79vw;
+    height: 50rem;
+    /* background-color: teal; */
+    position: absolute;
+    top: 20rem;
+    left: 15rem;
+}
+
+.bi {
+    width: 55.5rem;
+    height: 45.5rem;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+    position: absolute;
+    top: 2.2rem;
+}
+
+.bi:hover {
+    transform: scale(1.1);
+}
+
+.bd {
+    width: 50rem;
+    height: 50rem;
+    /* background-color: yellow; */
+    position: absolute;
+    margin-left: 65rem;
+    display: inline-block;
+}
+
+.bd-1-parent {
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+}
+
+.bd-1 {
+    width: 100%;
+    height: 22rem;
+    background-color: rgb(79, 188, 231);
+    transition: transform 1s;
+}
+
+.bd-phasham {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.8rem;
+}
+
+.bd-1:hover {
+    transform: rotate(50deg);
+}
+
+.bd-p1 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 4.5rem;
+    transition: transform 1s;
+}
+
+.bd-p1:hover {
+    transform: rotate(-50deg);
+}
+
+.bd-2 {
+    width: 22rem;
+    height: 22rem;
+    background-color: rgb(137, 137, 247);
+    position: absolute;
+    left: 28rem;
+    transition: transform 1s;
+}
+
+.bd-2:hover {
+    transform: rotate(50deg);
+}
+
+.bd-p2 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 7rem;
+    transition: transform 1s;
+}
+
+.bd-p2:hover {
+    transform: rotate(-50deg);
+}
+
+.bd-3 {
+    width: 22rem;
+    height: 22rem;
+    background-color: rgb(67, 67, 250);
+    position: absolute;
+    top: 28rem;
+    transition: transform 1s;
+}
+
+.bd-3:hover {
+    transform: rotate(50deg);
+}
+
+.bd-p3 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 8rem;
+    transition: transform 1s;
+}
+
+.bd-p3:hover {
+    transform: rotate(-50deg);
+}
+
+.bd-4 {
+    width: 22rem;
+    height: 22rem;
+    background-color: rgb(179, 97, 179);
+    position: absolute;
+    top: 28rem;
+    left: 28rem;
+    transition: transform 1s;
+}
+
+.bd-4:hover {
+    transform: rotate(50deg);
+}
+
+.bd-p4 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 7rem;
+    transition: transform 1s;
+}
+
+.bd-p4:hover {
+    transform: rotate(-50deg);
+}
+
+/* #3RD SECTION */
+
+
+.sec3 {
+    width: 100vw;
+    height: 70rem;
+    background-image: url(../images/base.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.c {
+    width: 80vw;
+    height: 50rem;
+    /* background-color: red; */
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+}
+
+.c1 {
+    width: 55%;
+    height: 50rem;
+    /* background-color: rgb(137, 137, 247); */
+    position: absolute;
+}
+
+.c1-h1 {
+    font-size: 6rem;
+    position: absolute;
+    color: white;
+    transition: transform 1s;
+}
+
+.c1-h1:hover {
+    transform: translateX(30px);
+}
+
+.c1-img {
+    width: 90%;
+    height: 43rem;
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 7rem;
+}
+
+.c2 {
+    width: 40%;
+    height: 21.5rem;
+    /* background-color: white; */
+    position: absolute;
+    left: 60%;
+}
+
+.c2-1 {
+    width: 100%;
+    height: 20rem;
+    /* background-color: turquoise; */
+    position: absolute;
+    top: 7rem;
+    transition: all 1s;
+}
+
+.c2-1:hover {
+    transform: scale(1.1);
+}
+
+.c2-h1 {
+    font-size: 2.5rem;
+    color: white;
+    position: absolute;
+}
+
+.c2-p1 {
+    font-size: 1.6rem;
+    color: white;
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+}
+
+.b2 {
+    position: absolute;
+    top: 12rem;
+    left: 5rem;
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+.b2:hover {
+    color: silver;
+    border-bottom: 2px solid silver;
+}
+
+.c3 {
+    width: 100%;
+    height: 20rem;
+    /* background-color: turquoise; */
+    position: absolute;
+    top: 30rem;
+    transition: all 1s;
+}
+
+.c3:hover {
+    transform: scale(1.1);
+}
+
+.c3-h1 {
+    font-size: 2.5rem;
+    color: white;
+    position: absolute;
+}
+
+.c3-p1 {
+    font-size: 1.6rem;
+    color: white;
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+}
+
+.b3 {
+    position: absolute;
+    top: 12rem;
+    left: 5rem;
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+.b3:hover {
+    color: silver;
+    border-bottom: 2px solid silver;
+}
+
+
+/* #4TH SECTION */
+
+.sec4 {
+    width: 100%;
+    height: 60rem;
+    background-color: white;
+    position: relative;
+}
+
+.d {
+    width: 80%;
+    height: 50rem;
+    /* background-color: tomato; */
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+}
+
+.d1 {
+    width: 30%;
+    height: 30rem;
+    /* background-color: thistle; */
+    position: absolute;
+    top: 10rem;
+}
+
+.d1-h1 {
+    font-size: 4.5rem;
+    color: rgb(79, 188, 231);
+    position: absolute;
+    transition: transform 1s;
+}
+
+.d1-h1:hover {
+    transform: translateX(20px);
+}
+
+.d1-p1 {
+    font-size: 1.8rem;
+    color: black;
+    position: absolute;
+    top: 8rem;
+}
+
+.b4 {
+    width: 18rem;
+    height: 4rem;
+    background-color: rgb(56, 158, 199);
+    position: absolute;
+    top: 20rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5rem;
+    border: 2px solid rgb(56, 158, 199);
+}
+
+.b4:hover {
+    background-color: rgb(16, 123, 165);
+    border: 2px solid rgb(16, 123, 165);
+}
+
+.d2-img {
+    width: 65%;
+    height: 45rem;
+    background-image: url(../images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2.5rem;
+    left: 32%;
+    transition: all 1s;
+}
+
+.d2-img:hover {
+    transform: scale(1.1);
+}
+
+
+/* #5TH SECTION */
+
+.sec5 {
+    width: 100%;
+    height: 85rem;
+    background-image: url(../images/base.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.e1 {
+    width: 30%;
+    height: 75rem;
+    background-image: url(../images/5.png);
+    background-attachment: fixed;
+    position: absolute;
+    left: 45%;
+    top: 5rem;
+}
+
+.e2 {
+    width: 75rem;
+    height: 55rem;
+    background-image: url(../images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+    transition: all 1s;
+}
+
+.e2:hover {
+    transform: scale(1.1);
+}
+
+
+.e3 {
+    width: 46rem;
+    height: 36rem;
+    /* background-color: teal; */
+    position: absolute;
+    top: 38rem;
+    left: 75rem;
+    transition: all 1s;
+}
+
+.e3:hover {
+    transform: scale(1.1);
+}
+
+
+.e3-1 {
+    width: 22rem;
+    height: 17rem;
+    background-color: white;
+    position: absolute;
+    transition: transform 1s;
+}
+
+.e3-1:hover {
+    transform: translateY(-10px);
+}
+
+.e3-p1 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 4.5rem;
+}
+
+.e3-2 {
+    width: 22rem;
+    height: 17rem;
+    background-color: white;
+    position: absolute;
+    left: 24rem;
+    transition: transform 1s;
+}
+
+.e3-2:hover {
+    transform: translateY(-10px);
+}
+
+.e3-p2 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 4.5rem;
+}
+
+.e3-3 {
+    width: 22rem;
+    height: 17rem;
+    background-color: white;
+    position: absolute;
+    top: 19rem;
+    transition: transform 1s;
+}
+
+.e3-3:hover {
+    transform: translateY(-10px);
+}
+
+.e3-p3 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 4.5rem;
+}
+
+.e3-4 {
+    width: 22rem;
+    height: 17rem;
+    background-color: white;
+    position: absolute;
+    left: 24rem;
+    top: 19rem;
+    transition: transform 1s;
+}
+
+.e3-4:hover {
+    transform: translateY(-10px);
+}
+
+.e3-p4 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 4.5rem;
+}
+
+
+
+/* #6TH SECTION */
+
+
+.sec6 {
+    width: 100%;
+    height: 70rem;
+    background-image: url(../images/base.jpg);
+    /* background-color: yellow; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.f {
+    width: 100%;
+    height: 45rem;
+    background-color: white;
+    position: absolute;
+    top: 8rem;
+}
+
+.f-img {
+    width: 40%;
+    height: 40rem;
+    background-image: url(../images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2.5rem;
+    left: 10%;
+    transition: all 1s;
+}
+
+.f-img:hover {
+    transform: scale(1.1);
+}
+
+
+.text3 {
+    width: 30%;
+    height: 30rem;
+    /* background-color: thistle; */
+    position: absolute;
+    top: 10rem;
+    left: 65%;
+}
+
+.f1-h1 {
+    font-size: 4.5rem;
+    color: rgb(79, 188, 231);
+    position: absolute;
+    transition: transform 1s;
+    left: 6rem;
+}
+
+.f1-h1:hover {
+    transform: translateX(-20px);
+}
+
+.f1-p1 {
+    font-size: 1.8rem;
+    color: black;
+    position: absolute;
+    top: 8rem;
+    text-align: end;
+}
+
+.b5 {
+    width: 18rem;
+    height: 4rem;
+    background-color: rgb(56, 158, 199);
+    position: absolute;
+    top: 20rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5rem;
+    border: 2px solid rgb(56, 158, 199);
+    left: 11.5rem;
+}
+
+.b5:hover {
+    background-color: rgb(16, 123, 165);
+    border: 2px solid rgb(16, 123, 165);
+}
+
+
+/* #7TH SECTION */
+
+.sec7 {
+    width: 100%;
+    height: 80rem;
+    background-image: url(../images/base.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.g1 {
+    width: 45rem;
+    height: 48rem;
+    background-image: url(../images/5.png);
+    position: absolute;
+    top: 25rem;
+    left: 25rem;
+}
+
+.g2 {
+    width: 65rem;
+    height: 40rem;
+    background-color: rgb(34, 133, 194);
+    position: absolute;
+    left: 60rem;
+    top: 7rem;
+}
+
+.g3 {
+    width: 65rem;
+    height: 40rem;
+    background-image: url(../images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 55rem;
+    top: 2rem;
+}
+
+.g4 {
+    width: 43rem;
+    height: 35rem;
+    background-color: white;
+    position: absolute;
+    top: 31rem;
+    left: 22rem;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.g4:hover {
+    transform: scale(1.1);
+}
+
+.g4-h1 {
+    font-size: 4.5rem;
+    color: purple;
+    position: absolute;
+    transition: transform 1s;
+    /* left: 60px; */
+}
+
+.g4-h1:hover {
+    transform: translatey(-10px);
+}
+
+.g4-p1 {
+    font-size: 1.8rem;
+    color: black;
+    position: absolute;
+    top: 10rem;
+}
+
+.b6 {
+    width: 18rem;
+    height: 4rem;
+    background-color: rgb(56, 158, 199);
+    position: absolute;
+    top: 22rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5rem;
+    border: 2px solid rgb(56, 158, 199);
+    /* left: 115px; */
+}
+
+.b6:hover {
+    background-color: rgb(16, 123, 165);
+    border: 2px solid rgb(16, 123, 165);
+}
+
+
